@@ -1,21 +1,20 @@
-import React, { useContext } from 'react';
+import { Fragment } from 'react';
+import Cart from './components/Cart/Cart';
 
-import Login from './components/Login/Login';
-import Home from './components/Home/Home';
-import MainHeader from './components/MainHeader/MainHeader';
-import AuthContext from './store/auth-context';
+import Header from './components/Layout/Header';
+import Meals from './components/Meals/Meals';
 
 function App() {
-  const ctx = useContext(AuthContext);
+  // const ctx = useContext(AuthContext);
 
   return (
-    <React.Fragment>
-      <MainHeader />
+    <Fragment>
+      <Cart />
+      <Header />
       <main>
-        {!ctx.isLoggedIn && <Login />}
-        {ctx.isLoggedIn && <Home />}
+        <Meals />
       </main>
-    </React.Fragment>
+    </Fragment>
   );
 }
 
