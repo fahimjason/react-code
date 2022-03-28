@@ -4,8 +4,19 @@
 
 html {
   font-family: sans-serif;
+<<<<<<< HEAD
+=======
+  background: #fff;
+>>>>>>> 08-side-effects-reducers-context-api
 }
 
 body {
   margin: 0;
+<<<<<<< HEAD
+=======
+}
+
+main {
+  margin-top: 6rem;
+>>>>>>> 08-side-effects-reducers-context-api
 }
