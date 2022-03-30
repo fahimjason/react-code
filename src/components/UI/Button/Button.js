@@ -3,6 +3,10 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const Button = (props) => {
+<<<<<<< HEAD
+=======
+  console.log('Button RUNNING');
+>>>>>>> 10-a-look-behind-the-scenes
   return (
     <button
       type={props.type || 'button'}
@@ -15,4 +19,8 @@ const Button = (props) => {
   );
 };
 
+<<<<<<< HEAD
 export default Button;
+=======
+export default React.memo(Button);
+>>>>>>> 10-a-look-behind-the-scenes
