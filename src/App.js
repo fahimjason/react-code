@@ -1,7 +1,9 @@
+import BasicForm from './components/BasicForm';
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
+    <div className="app">
+      <BasicForm />
     </div>
   );
 }
