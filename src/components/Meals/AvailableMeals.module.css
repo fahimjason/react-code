@@ -5,6 +5,19 @@
   animation: meals-appear 1s ease-out forwards;
 }
 
+<<<<<<< HEAD
+=======
+.MealsLoading {
+  text-align: center;
+  color: white;
+}
+
+.MealsError {
+  text-align: center;
+  color: red;
+}
+
+>>>>>>> dc9b3cae8d7a8b050d840ad6a6f4fe3cea7a8e20
 .meals ul {
   list-style: none;
   margin: 0;
